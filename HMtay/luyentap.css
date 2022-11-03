@@ -1,0 +1,79 @@
+#welcone-section {
+	
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	
+	}
+	#navbar {
+	background:rgb(125, 110, 76);
+	padding:2%;
+	width:98%;
+	text-align:left;
+	margin:0;
+	z-index:2;
+	position:fixed;
+	top:0;
+	}
+	#navbar a{
+	text-align:right;
+	padding:3px 10px;
+	text-decoration:none;
+	font-size:16px;
+	font-family:monospace;
+	color:white;
+	
+	}
+	#banner{
+	   
+	   width:100%;
+	   height:100vh;
+	   position:relative;
+	   top:30px;
+	  
+	}
+#tribute-info {
+    background: light grey;
+}
+#tribute-info p {
+    line-height: 2;
+}
+body {
+    background: rgb(234, 199, 122);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#subtitle {
+    text-align:center;
+    font-style: italic;
+}
+
+#img-caption {
+    font-style:italic;
+    margin-top: 0;
+    text-align: center;
+
+}
+
+#quote {
+    font-style: italic;
+}
+
+#projects{
+	 background:browny;
+	 display:grid;
+	 grid-template-columns:1fr 1fr 1fr;
+	 grid-gap:10px;
+	 }
